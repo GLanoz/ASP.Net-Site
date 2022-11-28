@@ -1,0 +1,103 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(320deg, #2c0b58, #8d3a3a);
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+    nav-up: auto;
+}
+
+.wrapper {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(68, 4, 94, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: rgb(15, 14, 14);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(68, 4, 94, 0.5);
+    padding: 10px;
+}
+
+
+.screen{
+    text-align: right;
+    font-size: 2rem;
+    padding: 1.25px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgb(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border: 1px solid rgba(68, 4, 94, 0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    height: 100%;
+    margin-bottom: 4px;
+    max-width: 500px;
+    width: 100%;
+    font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.calc-button-item{
+    background: #fff;
+    border: 1px solid rgb(141, 135, 135);
+    border-radius: 30%;
+    color: #000;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    font-size: 1.22rem;
+    font-weight: 700;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    width: 40px;
+}
+
+.calc-button-item:last-child{
+    float: right;
+    background: rgb(131, 13, 125);
+    color: #fff;
+}
+
+.calc-button-item:hover{
+    background-color: rgb(187, 161, 187);
+}
+
+.calc-button-item:last-child:hover{
+    background-color: rgb(110, 33, 107);
+}
+
+.calc-button-item:last-child:active{
+    background-color: rgb(141, 46, 138);
+}
+
+.calc-button-item:active{
+    background-color: rgb(102, 95, 105);
+}
+
+.double{
+    width: 93px;
+    border-radius: 10px;
+}
+
+.triple{
+    width: 146px;
+    border-radius: 10px;
+}

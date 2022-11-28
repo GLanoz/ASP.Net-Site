@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\ico\about.txt" />
+    <None Include="wwwroot\ico\android-chrome-192x192.png" />
+    <None Include="wwwroot\ico\android-chrome-512x512.png" />
+    <None Include="wwwroot\ico\apple-touch-icon.png" />
+    <None Include="wwwroot\ico\favicon-16x16.png" />
+    <None Include="wwwroot\ico\favicon-32x32.png" />
+    <None Include="wwwroot\ico\favicon.ico" />
+    <None Include="wwwroot\ico\site.webmanifest" />
+  </ItemGroup>
+
+</Project>
