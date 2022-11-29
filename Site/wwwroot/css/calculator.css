@@ -3,6 +3,17 @@ html{
     height: 100%;
 }
 
+nav{
+    position: absolute;
+    offset-position: top;
+    background: linear-gradient(320deg, #5a214a, #8d3a3a);
+}
+
+h1{
+    color: #dcacac;
+    display: flex;
+}
+
 *, *:before, *:after{
     box-sizing: inherit;
     margin: 0;
@@ -12,12 +23,9 @@ html{
 body{
     align-items: center;
     background: linear-gradient(320deg, #2c0b58, #8d3a3a);
-    display: flex;
     font-family: 'Roboto', sans-serif;
-    font-display: swap;
     height: inherit;
     justify-content: center;
-    nav-up: auto;
 }
 
 .wrapper {
@@ -33,6 +41,7 @@ body{
     background: rgba(255, 255, 255, 0.5);
     border: 1px solid rgba(68, 4, 94, 0.5);
     padding: 10px;
+    width: 240px;
 }
 
 
@@ -48,7 +57,7 @@ body{
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     height: 100%;
     margin-bottom: 4px;
-    max-width: 500px;
+    max-width: 240px;
     width: 100%;
     font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -93,7 +102,7 @@ body{
 }
 
 .double{
-    width: 93px;
+    width: 94px;
     border-radius: 10px;
 }
 
